@@ -2,3 +2,14 @@ LICENSE: GPL
 
 A simple gambas gui to help you compile ladspa filter parameters
 in a way suitable for mplayer.
+
+Compiling it:
+-----------------------------
+After you installed gambas 3, just checkout and compile xt7 that way:
+
+# git clone https://github.com/kokoko3k/mplayer-ladspa-helper
+# cd mplayer-ladspa-helper/
+# /path/to/gambas/binaries/gbc3 -e -a -g -t -p -m
+# /path/to/gambas/binaries/gba3
+# ./mplayer-ladspa-helper.gambas
+
