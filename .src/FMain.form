@@ -1,0 +1,69 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,91,76)
+  Arrangement = Arrange.Vertical
+  Spacing = True
+  Margin = True
+  { Panel2 Panel
+    MoveScaled(1,1,89,4)
+    Arrangement = Arrange.Horizontal
+    { Label1 Label
+      MoveScaled(0,0,22,4)
+      Text = ("Ladspa file")
+      Alignment = Align.Left
+    }
+    { ButtonBox1 ButtonBox
+      MoveScaled(27,0,61,4)
+      Expand = True
+      Text = ("Ladspa plugin file name")
+    }
+  }
+  { Panel3 Panel
+    MoveScaled(1,6,89,4)
+    Arrangement = Arrange.Horizontal
+    { Label2 Label
+      MoveScaled(0,0,22,4)
+      Text = ("Ladspa plugin label")
+      Alignment = Align.Left
+    }
+    { ComboLabel ComboBox
+      MoveScaled(27,0,61,4)
+      Expand = True
+      Text = ("Ladspa plugin label")
+    }
+  }
+  { Label3 Label
+    MoveScaled(1,12,47,4)
+    Font = Font["Bold"]
+    Text = ("Plugin controls:")
+    Alignment = Align.Bottom
+  }
+  { Panel1 ScrollView
+    MoveScaled(1,17,88,51)
+    Background = Color.ButtonBackground
+    Expand = True
+    Arrangement = Arrange.Vertical
+    Spacing = True
+    Margin = True
+  }
+  { Panel4 Panel
+    MoveScaled(1,70,89,4)
+    Arrangement = Arrange.Horizontal
+    { Button1 Button
+      MoveScaled(0,0,16,4)
+      ToolTip = ("Generate a ladspa commandline for mplayer \nfrom the selected plugin")
+      Text = ("Generate")
+    }
+    { TextBox1 TextBox
+      MoveScaled(17,0,54,4)
+      Expand = True
+      Text = ("-af ladspa=/usr/lib/ladspa/filters.so:Parametric1:1:0:1:110:0.125:20:0:40:0.1250:0:0:100:0.125:0:0:200:0.125:0")
+    }
+    { Button2 Button
+      MoveScaled(72,0,16,4)
+      ToolTip = ("Display the plugin controls and values from a valid \nmplayer ladspa command line in the form:\n-af ladspa=/path/to/ladspaplugin.so:\"ladspalabel\":param1:param2:param3:..:paramN")
+      Text = ("Reverse")
+    }
+  }
+}

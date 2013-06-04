@@ -1,0 +1,45 @@
+[Breakpoints]
+Count=0
+
+[DebugWindow]
+Count=0
+
+[DebugWindow/PCONTROLS]
+Geometry=[47,0,210,210]
+
+[DebugWindow/Panel]
+Geometry=[47,-3,210,210]
+
+[DebugWindow/ScrollArea]
+Geometry=[47,-3,210,210]
+
+[DebugWindow/Split(Split(lcontrol, ",")[2], " ")]
+Geometry=[47,-3,210,210]
+
+[DebugWindow/Split(lcontrol, ",")]
+Geometry=[47,-3,210,210]
+
+[DebugWindow/Split(lcontrol, "\"")]
+Geometry=[47,-3,1233,1004]
+
+[DebugWindow/Split(pcontrol, "£")]
+Geometry=[92,315,210,210]
+
+[DebugWindow/Split(pcontrol, "£", "", True)]
+Geometry=[60,237,210,210]
+
+[DebugWindow/Split(pout, "\n", "", True)]
+Geometry=[1705,308,735,265]
+
+[DebugWindow/lparams]
+Geometry=[47,0,210,210]
+
+[OpenFile]
+Active=1
+File[1]=".src/FMain.form"
+File[2]=".src/FMain.class:13.59"
+Count=2
+
+[Watches]
+Count=0
+
